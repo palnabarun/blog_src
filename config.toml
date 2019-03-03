@@ -1,0 +1,54 @@
+baseurl = "https://blog.nabarun.in"
+languageCode = "en"
+title = "e^iπ + 1 = 0"
+theme = "kiss"
+copyright = "&copy; 2018-19 <a href=\"https://www.nabarun.in/\">Nabarun Pal</a>"
+disqusShortname = ""
+googleAnalytics = ""
+# Number of posts per page
+Paginate = 5
+enableRobotsTXT = true
+
+[params.features]
+disqusOnDemand = true  # Load Disqus comments on click
+
+[params.assets]
+customCSS = ["css/custom.css"]
+
+[params.rss]
+
+includeContent = true # Includes whole content in rss
+authorName = "Nabarun Pal" # Site author's full name
+authorEmail = "pal@nabarun.in"
+
+[params.info]
+adsense = "" # Adsense ID (ID only, without ca-pub-)
+enableSocial = false # Adds OpenGraph and Twitter cards
+homeTitle = "palnabarun's blog" # Title for home page
+poweredby = false # Adds powered by Hugo and Kiss below Copyright section
+related = true # Includes related articles
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter Page username. If not set, params.social.twitter will be used.
+
+[params.social]
+
+twitter = "_palnabarun"
+github = "palnabarun"
+email = "pal@nabarun.in"
+linkedin = "palnabarun"
+gitlab = "palnabarun"
+
+[params.social.config]
+platforms = ["twitter", "linkedin", "github", "gitlab", "email"]
+
+[taxonomies]
+tag ="tags"
+
+[blackfriday]
+hrefTargetBlank = true
